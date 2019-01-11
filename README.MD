@@ -20,7 +20,7 @@ import { DialogProvider } from "dialog-modal";
 export default class App extends Component {
 render() {
     return(
-        DialogProvider>
+        <DialogProvider>
             <Main />
         </DialogProvider>
     );
